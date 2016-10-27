@@ -1,0 +1,24 @@
+body {
+  font-family: "Helvetica";
+  margin: 0;
+  padding: 0;
+  top: 0;
+}
+
+.title {
+  background-image: url('../img/coffee.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  color: #FAFAFA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-text {
+  font-weight: 100;
+}
