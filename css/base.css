@@ -5,20 +5,27 @@ body {
   top: 0;
 }
 
-.title {
+.page {
   background-image: url('../img/coffee.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   height: 100vh;
   width: 100%;
-  text-align: center;
+}
+
+.title {
   color: #FAFAFA;
+  display: flex;
+  justify-content: center;
+}
+
+.social {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.title-text {
-  font-weight: 100;
+.social img {
+  padding-right: 30px;
 }
